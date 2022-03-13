@@ -1,0 +1,162 @@
+.section{
+    width: 100%;
+    padding: 0 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-video{
+    width: 100%;
+    height: 70%;
+
+}
+
+.slick-prev{
+    background: #ffff !important;
+    border: 2px solid #d7d7d7 !important;
+    z-index: 999 !important;
+    left: -20px !important ;
+    height: 48px !important;
+    width: 45px !important;
+    top: 50% !important;
+    &:hover{
+        background: #e6e4e4 !important;
+    }
+
+}
+.slick-prev:before{
+    font-family:  "Font Awesome 5 Free" !important;
+    color: red !important;
+}
+.slick-next{
+    background: #ffff !important;
+    border: 2px solid #d7d7d7 !important;
+    z-index: 1000 !important;
+    right: -20px !important ;
+    height: 48px !important;
+    width: 45px !important;
+    top: 50% !important;
+    &:hover{
+        background: #e6e4e4 !important;
+    }
+
+}
+.slick-next:before{
+    font-family:  "Font Awesome 5 Free" !important;
+    color: red !important;
+}
+
+    .gallery {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+                .item {
+                    width: 100%;
+                    position: relative;
+                
+                  }
+                  
+                 .item img {
+                    width: 283px;
+                    height: 160px;
+                    display: block;
+                
+                  }
+                  
+                 .youtube_icon {
+                
+                    width: 100%;
+                    height: 100%;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    background-color: rgba(0, 0, 0, 0.8);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+                    -webkit-box-align: center;
+                        -ms-flex-align: center;
+                            align-items: center;
+                    cursor: pointer;
+                    -webkit-transition: all .3s ease-in-out;
+                    transition: all .3s ease-in-out;
+                    width:100%;
+                    height:100%;
+                    display:flex;
+                    background-color:rgba(0,0,0,.8);
+                    position:absolute;
+                    top:0;
+                    left:0;
+                    justify-content: center;
+                    align-items: center;
+                    cursor:pointer;
+                    transition:all .3s ease-in-out;
+
+                    &:hover{
+                      background-color:rgba(0,0,0,.0);
+                    }
+                    &:active{
+                      background-color:rgba(0,0,0,.0);
+                      box-shadow:5px 5px 10px;
+                      img{
+                        opacity:0;
+                      }
+                    }
+                    img{
+                      width:50px;
+                    }
+                  }
+                  
+               
+      }
+    
+
+.youtube_video {
+    display: block;
+    width: 60%;
+    position: relative;
+    padding-bottom: 33.25%;
+    margin: 0 auto;
+  }
+  
+.youtube_video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  @media (max-width: 990px)
+  {
+    .gallery .item img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .gallery .youtube_icon img{
+        width: 30%;
+    }
+.slick-next{
+    height: 30px !important;
+    width: 30px !important;
+    position: relative ;
+    top: 50% !important;
+    
+}
+.slick-prev{
+    height: 30px !important;
+    width: 30px !important;
+    position: relative ;
+    top: 50%!important;
+
+}
+  }

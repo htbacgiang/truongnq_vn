@@ -1,0 +1,250 @@
+
+
+.home-header-banner{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+.banner{
+    width: 100%;
+
+}
+.banner img{
+  width: 100%;
+}
+.intro{
+    position: absolute;
+    top: 200px;
+    margin-left: 100px;
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 50px;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    display: flex;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    color: orangered;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: crimson;
+    background: none;
+}
+
+.buttons{
+    margin: 20px 0 0 50px;
+  }
+.buttons button{
+    outline: none;
+    margin: 0 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-image: linear-gradient( 135deg, #2AFADF     10%, #C346C2 100%);
+  }
+  .buttons button:hover{
+    transform: scale(0.97);
+  }
+
+.product{
+  display: flex;
+}
+.theodoi{
+    display: grid;
+    width: 100%;
+    place-items: center;
+    margin-top: 20px;
+  }
+  
+  a:link {
+      text-decoration: none;
+    }
+    
+  a:hover {
+      text-decoration: none;
+    }
+  .theodoi > h3{
+      color: coral;
+  }
+  .wrapper{
+    display: flex;
+  
+  }
+  .wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon1{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon1{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon1{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon1{
+    background: #E1306C;
+  }
+  .wrapper .button:nth-child(4):hover .icon1{
+    background: #ff0000;
+  }
+  
+  .wrapper .button .icon1 i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon1 i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #ff0000;
+  }
+  
+
+  @media (min-width: 991.98px) { 
+    .logo-nav > .icon{
+       display: none;
+    }
+    .menu-mobile{
+        display: none;
+    }
+   
+}
+
+@media (max-width: 991.98px) { 
+    .menu-mobile{
+        display: block;
+    }
+    .logo-nav{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .intro{
+        position: absolute;
+        top: 150px;
+        margin-left: 30px;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+    .banner img{
+      width: 100%;
+      height: 100%;
+    }
+    .home-content a{
+      padding: 0 51px !important;
+      margin-top: 0 !important;
+    }
+    .buttons{
+      margin: 0 !important;
+    }
+    .theodoi {
+      margin-top: 50px !important;
+    }
+  
+}
+
+@media (max-width: 600px) { 
+   
+    .intro{
+        position: absolute;
+        top: 120px;
+        margin-left: 40px;
+    }
+    .home .home-content .text-1{
+        font-size: 15px;
+    }
+    .home .home-content .text-2{
+        font-size: 25px;
+    }
+    .home .home-content .text-3{
+        font-size: 17px;
+    }
+    .buttons button {
+        font-size: 11px;
+        margin-left: -20px;
+    }
+    .wrapper{
+        margin-top: 0;
+      
+      }
+}

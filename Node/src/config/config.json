@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "Truong*123",
+    "database": "truongnq_vn",
+    "host": "truongnq-vn.csh5sjcsoz30.ap-northeast-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "logging": false,
+    "query": {
+      "raw":true
+    },
+    "timezone":"+07:00"
+  },
+  
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "Truong*123",
+    "database": "truongnq_vn",
+    "host": "truongnq-vn.csh5sjcsoz30.ap-northeast-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}
